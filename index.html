@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title</title>
+    <link rel="canonical" href="https://goteamtim.github.io/push-ups/" />
+    <style type="text/css">
+    /* --- application CSS here --- */
+    *{
+      background-color: #F5F4F0;
+      font-family: Georgia, serif;
+    }
+    </style>
+</head>
+<body>
+  <h1>Content</h1>
+  <script>
+  // register ServiceWorker, remember to use absolute path!
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/push-ups/sw.js', {scope: '/push-ups/'})
+  }
+  
+  // --- Application code here ---
+  </script>
+</body>
+</html>
